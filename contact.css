@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.contact-header{
+    background-color: yellow;
+    height: 200px;
+}
+.contact-menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+
+/* footer */
+.contact-footer{
+    background-color: lightgrey;
+    height: 100px;    
+}

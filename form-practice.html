@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+  <h1>forms</h1>
+
+  <form>
+    <fieldset>
+        <legend>personal information</legend>
+        
+        <div>
+            <label for="name">name:</label>
+            <input id="name" type="text" placeholder="insert your name">
+        </div>
+
+        <div>
+            <label for="number">Age:</label>
+            <input id="number" type="number">
+        </div>
+
+        <div>
+            <label for="email">email:</label>
+            <input id="email" type="email" placeholder="example@gmail.com">
+        </div>
+
+        <div>
+            <label for="password">password:</label>
+            <input id="password" type="password">
+        </div>
+
+        <div>
+            <label>select a date</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label>select a color</label>
+            <input type="color">
+        </div>
+
+        <div>
+            <label>message</label>
+            <textarea maxlength="1200"></textarea>
+        </div>
+
+        <div>
+            <label>time</label>
+            <input type="time">
+        </div>
+        
+        <div>
+            <label for="status">status:</label>
+            active <input type="radio" name="status" value="active">
+            inactive <input type="radio" name="status" value="inactive">
+        </div>
+
+        <div>
+            <label>product type:</label>
+            <select>
+               <option value="option 1">option 1</option>
+               <option value="option 2">option 2</option>
+               <option value="option 3">option 3</option>
+            </select>
+        </div>
+
+        <div>
+            <label>pet:</label>
+            dog <input type="checkbox">
+            cat <input type="checkbox">
+            hamster <input type="checkbox">
+        </div>
+
+    </fieldset>
+  </form>
+</body>
+</html>

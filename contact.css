@@ -6,7 +6,7 @@ a{
     text-decoration: none;
 }
 .contact-header{
-    background-color: yellow;
+    background-color: orange;
     height: 200px;
 }
 .contact-menu-container{
@@ -16,8 +16,61 @@ a{
     padding-top: 18px;
 }
 
+/*contact form*/
+form{
+    background-color: rgba(163, 219, 219, 0.281);
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+fieldset{
+     display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form-container{
+    background-color: rgba(163, 219, 219, 0.281);
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.form-items{
+    display: flex;
+    flex-direction:row;
+    gap: 70px;
+}
+.contact-info-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+    margin: 20px;
+    padding-right: 30px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 4px;
+    
+}
+
 /* footer */
+footer{
+    background-color: rgba(163, 219, 219, 0.281);
+    height: 100px;  
+}
 .contact-footer{
-    background-color: lightgrey;
-    height: 100px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px; 
+    gap: 8px; 
 }

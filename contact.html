@@ -20,25 +20,92 @@
     </header>
     
     <main>
-        <div>
+        <div class="contact-info-container">
+          <div class="form-container">
             <h2>Contact</h2>
-            <p></p>
-            <p></p>
+            <p>Fill the next information</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam rerum nihil adipisci, et libero eveniet!</p>
+          </div>
         </div>
+
+            <div>
+              <form>
+                <fieldset>
+                  <legend>Personal information</legend>
+
+                <div class="form-input">
+                  <div class="form-items">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text">
+                  </div>
+                  
+                  <div class="form-items">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email">
+                  </div>
+                  
+                  <div class="form-items">
+                    <label for="number">Phone number:</label>
+                    <input id="number" type="number">
+                  </div>
+
+                  <div class="form-items">
+                    <label>Message:</label>
+                    <textarea maxlength="1500"></textarea>
+                  </div>
+                </div>
+                </fieldset>
+                
+                
+                <fieldset>
+                  <legend>Product information</legend>
+                  <div class="form-input">
+                    <div class="form-items">
+                      <label>Type:</label>
+                      <select>
+                        <option value="option 1">option 1</option>
+                        <option value="option 2">option 2</option>
+                        <option value="option 3">option 3</option>
+                      </select>
+                    </div>
+                      <div class="form-items">
+                      <label for="number">number:</label>
+                      <input id="number" type="number">
+                      </div>
+                    </div>
+                
+                </fieldset>
+
+                <fieldset>
+                  <legend>Contacts information</legend>
+                  <div class="contact-info-items">                 
+                    Email: <input type="radio" name="email" value="active">
+                    Phone: <input type="radio" name="inactive" value="inactive">
+                  </div>
+                  <div class="contact-info-items">
+                    date: <input type="date">
+                    hour: <input type="time">
+                  </div>
+
+                </fieldset>
+                
+              </form>
+            
+        
     </main>
 
     <footer>
-    <div>
-      <div>
+    <div class="contact-footer">
+      <div class="contact-footer">
         <p>Powered by Zillow</p>
       </div>
 
-      <div>
+      <div class="contact-footer">
         <p>Copyright &copy; 2024</p>
         <p>Privacy Policy</p>
       </div>
       
-      <div>
+      <div class="contact-footer">
         <div><i class="fa-brands fa-facebook"></i></div>
         <div><i class="fa-brands fa-linkedin-in"></i></div>
         <div><i class="fa-brands fa-youtube"></i></div>

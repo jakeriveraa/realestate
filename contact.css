@@ -17,16 +17,33 @@ a{
 }
 
 /*contact form*/
+main{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+h2,p{
+    text-align: center;
+    margin: 4px;
+}
 form{
     background-color: rgba(163, 219, 219, 0.281);
     display: flex;
     flex-direction: column;
     margin: 15px;
+    margin-bottom: 20px;
+    border-radius: 9px;
 }
 fieldset{
      display: flex;
     flex-direction: column;
     margin: 15px;
+    border-radius: 8px;
 }
 
 .contact-info-container{
@@ -63,8 +80,8 @@ fieldset{
 
 /* footer */
 footer{
-    background-color: rgba(163, 219, 219, 0.281);
-    height: 100px;  
+    background-color: rgba(163, 219, 219, 0.281);  
+    margin: 0;
 }
 .contact-footer{
     display: flex;
@@ -73,4 +90,9 @@ footer{
     text-align: center;
     padding: 25px; 
     gap: 8px; 
+}
+.fa-brands{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
 }

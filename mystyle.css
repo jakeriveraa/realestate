@@ -62,7 +62,7 @@ img{
 
 .houses-init-container{
      display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     justify-content: space-between;
     margin-bottom: 20px
@@ -75,8 +75,6 @@ img{
 }
 .house-item{
     background-color: rgb(211, 213, 219);
-}
-.house-item-img{
 }
 .house-item-text{
     padding: 20px;
@@ -106,4 +104,127 @@ img{
     text-decoration: none;
     color: azure;
     margin-right: 20px;
+}
+
+/* blog */
+
+.blog-header{
+    background-image: url(realEstate-img-main/highlight.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.blog-init-container{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    text-align: center;
+}
+.blog-img{
+    width: 80%;
+    height: 250px;
+}
+.read-more{
+    color: black;
+}
+
+/*about us*/
+
+.about-us-header{
+    background-image: url(realEstate-img-main/destacada3.jpg);
+    background-size: cover;
+    height: 300px;
+    color:white;
+    text-align: center;
+}
+.about-init-container{
+    display: block;
+    block-size: auto;
+    text-align: center
+} 
+.about-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* media queries*/
+
+@media (max-width: 3000px){
+    main{
+        font-size: 25px;
+    }
+    .blog-img{
+        width: 75%;    
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+    section{
+        display: block;
+    }
+}
+
+@media (max-width: 1024px){
+    main{
+        font-size: 16px;
+    }
+    div{
+        display: block;
+        flex-direction: row;
+    }
+    .blog-img{
+        width: 100%;
+    }
+    section{
+        font-size: 16px;
+        margin: 4px;
+    }
+}
+@media (min-width:641px){
+    section{
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 640px){
+    main{
+        font-size: 18px;
+    }
+    .blog-img{
+        width: 100%;
+        padding: 6px;
+        margin: 6px;
+    }
+}
+@media (min-width:1025px){
+    section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        padding: 50px;
+    }
 }
